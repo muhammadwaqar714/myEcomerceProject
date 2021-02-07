@@ -1,0 +1,150 @@
+.fa-cart-plus{
+    color: black !important;
+    font-size: 25px !important;
+}
+.com{
+    color: green;
+}
+.navbar{
+font-size: 20px !important;
+font-weight: bold !important;
+background-color: rgba(219, 196, 196, 0.452) !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    
+}
+.nav-link{
+    border-radius: 10px;
+}
+.nav-link:hover{
+background-color: green;
+color: #fff !important;
+transition: 2s;
+border-radius: 10px;
+}
+.active{
+    background-color: rgba(0, 128, 0, 0.418) !important;
+    border-radius: 10px;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    background-color: #ffff;
+    flex-wrap: wrap;
+}
+
+
+.heading{
+    width: 300px;
+    height: 250px;
+}
+.heading h1{
+    color: green;
+    font-weight: bold;
+    font-size: 35px;
+}
+.heading button{
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    padding: 5px;
+    color: #fff;
+}
+.heading button:hover{
+    background-color: rgba(0, 128, 0, 0.418);
+    transition: 2s;
+    transform: translateX(5px);
+}
+
+
+
+.image{
+    margin-top: 20px;
+    width: 400px;
+    height: 500px !important;
+    background-image: url('images/unnamed.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Product Section */
+.prod-heading{
+margin: 10px auto;
+border-bottom: 3px solid green;
+width: 255px;
+}
+
+.prod-card{
+    max-width: 360px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.212);
+    /* box-shadow: 0px 2px 2px 2px gray; */
+    
+}
+
+
+.prod-image{
+    padding: 5px;
+}
+.prod-image img{
+    height: 220px;
+    width: 100%;
+    
+}
+.img-heading{
+    text-align: center;
+}
+
+/* Two cards */
+.two-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 2px 2px gray;
+
+}
+
+
+.two-div h4{
+    padding-top:0px;
+}
+.two-cards button{
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.tow-img{
+    width: 100px;
+}
+.tow-img img{
+    width: 100%;
+}
+
+/* All Products */
+
+
+
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer-heading h4{
+    font-weight: bold;
+    color: green;
+    text-shadow: 3px 4px 4px black;
+}
+.foot{
+    background-color:rgba(219, 196, 196, 0.452) !important ;
+}
